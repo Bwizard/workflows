@@ -71,5 +71,5 @@ gulp.task('json', function(){
     .pipe(connect.reload())
 });
 
-gulp.task('default', ['json','html','coffee', 'js', 'compass', 'connect', 'watch']);
+gulp.task('default', ['json','html','coffee', 'js', 'compass', 'connect']);
 
